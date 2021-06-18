@@ -1,0 +1,125 @@
+/* ===== GLOBAL =====*/
+:root {
+    --dark-blue: #363f5f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(220, 250, 220);
+    font-family: 'Kalam', cursive;
+}
+
+/* ===== HEADER =====*/
+header {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 2rem 0rem 10rem;
+}
+
+#logo {
+    color: white;
+    font-weight: 300;
+}
+
+/* ===== TITLES =====*/
+h2 {
+    color: var(--dark-blue);
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+}
+
+/* ===== MAIN / CONTAINER =====*/
+.container {
+    margin: auto;
+    margin-top: -8rem;
+    width: min(800px, 90vw);
+}
+
+/* ===== CARDS =====*/
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.card:hover {
+    background-color: rgb(140, 216, 25);
+    color: white;
+}
+
+/* ===== BALANCE =====*/
+#balance h2{
+    color: white;
+    margin-top: 0rem;
+}
+
+
+/* ===== TRANSACTIONS =====*/
+
+/* ===== TABLE =====*/
+table{
+    width: 100%;
+    border-spacing: 0rem 0.2rem;
+}
+
+table tbody tr {
+    opacity: 70%;
+}
+
+table tbody tr:hover {
+    opacity: 100%;
+}
+
+table th{
+    background-color: white;
+    opacity: 70%;
+    font-weight: normal;
+
+    padding: 1rem 2rem;
+}
+
+table td{
+    background-color: white;
+    opacity: 70%;
+    padding: 1rem 2rem;
+}
+
+td.description {
+    color: var(--dark-blue);
+}
+
+td.expense{
+    color: red;
+}
+
+td.income{
+    color:green;
+}
+
+
+/* ===== FOOTER =====*/
+footer {
+    margin: 3rem 0 2rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color:var(--dark-blue);
+    opacity: 0.6;
+}
